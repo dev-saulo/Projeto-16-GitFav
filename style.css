@@ -344,16 +344,17 @@
   }
   
   @media (max-width: 465px) {
+    .search {
+      flex-direction: column;
+      gap: 1.6rem;
+    }
+
     .search input {
       padding: 0;
       text-align: center;
     }
   
     .search button {
-      display: none;
-    }
-  
-    .search .device {
       display: flex;
     }
   
